@@ -11,7 +11,7 @@
   "license": "MIT",
   "description": "Module with function and express middleware to resolve OPNS domains (PoW Domains) on the Bitcoin Blockchain",
   "dependencies": {
-    "bsv2": "^2.0.24",
+    "bsv2": "^2.1.0",
     "dotenv": "^16.4.7",
     "ordexplorer": "^0.0.26"
   },
