@@ -1,7 +1,6 @@
 import 'dotenv/config'
 import ordexplorer from 'ordexplorer'
-import bsv2 from 'bsv2'
-let { PrivKey, PubKey, KeyPair, Ecdsa, Hash } = bsv2
+import { PrivKey, PubKey, KeyPair, Ecdsa, Hash } from 'bsv2'
 
 // Resolve OPNS Domains ( PoW Tokenized Domains )
 export const opns_resolve = ( domain )=>{
