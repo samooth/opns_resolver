@@ -4,19 +4,26 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npx tape test/*.js"
   },
   "keywords": [],
   "author": "Tomás Díaz <tomas@bsv.direct>",
   "license": "MIT",
   "description": "Module with function and express middleware to resolve OPNS domains (PoW Domains) on the Bitcoin Blockchain",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/samooth/opns_resolver.git"
-  },
   "dependencies": {
     "bsv2": "^2.0.24",
     "dotenv": "^16.4.7",
     "ordexplorer": "^0.0.26"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/samooth/opns_resolver.git"
+  },
+  "bugs": {
+    "url": "https://github.com/samooth/opns_resolver/issues"
+  },
+  "homepage": "https://github.com/samooth/opns_resolver",
+  "devDependencies": {
+    "tape": "^5.9.0"
   }
 }
