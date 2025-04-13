@@ -2,7 +2,7 @@
 
 OPNS are PoW domains built as 1satordinal on the Bitcoin SV Blockchain, this module provides function and express middleware to resolve OPNS domains
 
-![semver](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fsamooth%2Fopns_resolver%2Frefs%2Fheads%2Fmain%2Fpackage.json&query=version)
+![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fsamooth%2Fopns_resolver%2Frefs%2Fheads%2Fmain%2Fpackage.json&query=version&label=semver)
 
 ## opns_resolve( domain )
 
