@@ -13,8 +13,3 @@ test('Resolving opns domain', async function (t){
 	t.end()
 })
 
-
-// Apply to Express test
-// if (!response?.pubKey|| !response?.opnsData || !response?.signature || !response?.endian ) console.log("Error on the response content\n", response) & process.exit()
-
-
