@@ -8,8 +8,12 @@
   },
   "keywords": [],
   "author": "Tomás Díaz <tomas@bsv.direct>",
-  "license": "ISC",
+  "license": "MIT",
   "description": "Module with function and express middleware to resolve OPNS domains (PoW Domains) on the Bitcoin Blockchain",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/samooth/opns_resolver.git"
+  },
   "dependencies": {
     "bsv2": "^2.0.24",
     "dotenv": "^16.4.7",
